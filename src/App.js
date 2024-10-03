@@ -55,7 +55,6 @@ function App() {
     };
 
     return (
-        <div className="quiz-container">
  <div className="quiz-container">
     <h1>Que estilo você procura?</h1>
     <form id="quizForm">
@@ -116,7 +115,7 @@ function App() {
 
         <button type="button" onClick={calculateResult}>Enviar</button>
     </form>
-</div>
+
 
 
             {/* Modal para mostrar el resultado */}
